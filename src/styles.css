@@ -1,0 +1,22 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--columns-count), auto);
+  width: 100px;
+  margin: auto;
+}
+
+:root {
+  --columns-count: 3;
+}
